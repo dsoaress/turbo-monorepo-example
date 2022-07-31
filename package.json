@@ -1,0 +1,15 @@
+{
+  "name": "turbo-monorepo-example",
+  "author": "Daniel Soares <daniel.soares@me.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "prettier": "2.7.1",
+    "turbo": "1.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
