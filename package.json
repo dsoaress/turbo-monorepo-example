@@ -5,9 +5,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "start": "turbo run start --parallel",
     "lint": "yarn format && turbo run lint",
     "format": "prettier --write \"**/*.{js,md,json}\" --ignore-path .gitignore",
     "prepare": "husky install"
