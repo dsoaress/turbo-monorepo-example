@@ -1,9 +1,15 @@
 {
   "name": "turbo-monorepo-example",
   "author": "Daniel Soares <daniel.soares@me.com>",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
+    "@dsoaress/eslint-config-base": "*",
+    "@dsoaress/prettier-config-base": "*",
     "eslint": "8.20.0",
     "prettier": "2.7.1",
     "turbo": "1.4.0"
@@ -11,5 +17,11 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "prettier": "@dsoaress/prettier-config-base",
+  "eslintConfig": {
+    "extends": [
+      "@dsoaress/eslint-config-base"
+    ]
+  }
 }
