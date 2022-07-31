@@ -10,8 +10,14 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build:server": "turbo run build --scope @dsoaress/server",
+    "build:web": "turbo run build --scope @dsoaress/web",
     "dev": "turbo run dev --parallel",
+    "dev:server": "turbo run dev --scope @dsoaress/server",
+    "dev:web": "turbo run dev --scope @dsoaress/web",
     "start": "turbo run start --parallel",
+    "start:server": "turbo run start --scope @dsoaress/server",
+    "start:web": "turbo run start --scope @dsoaress/web",
     "lint": "yarn format && turbo run lint",
     "format": "prettier --write \"**/*.{js,md,json}\" --ignore-path .gitignore",
     "prepare": "husky install"
