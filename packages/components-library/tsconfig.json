@@ -1,0 +1,5 @@
+{
+  "extends": "@dsoaress/tsconfig/components-library.json",
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

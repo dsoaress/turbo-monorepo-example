@@ -6,7 +6,8 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src",
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "start": "node dist"
+    "start": "node dist",
+    "lint": "eslint src/**/*.ts --fix"
   },
   "dependencies": {
     "express": "4.18.1"
