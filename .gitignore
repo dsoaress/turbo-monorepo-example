@@ -1,16 +1,16 @@
-# Logs
+# logs
 logs
 *.log
 yarn-debug.log*
 yarn-error.log*
 
-# Dependency directories
+# dependency directories
 node_modules/
 
-# TypeScript cache
+# typescript cache
 *.tsbuildinfo
 
-# Yarn Integrity file
+# yarn integrity file
 .yarn-integrity
 
 # dotenv environment variable files
@@ -20,6 +20,6 @@ node_modules/
 .env.production.local
 .env.local
 
-# Next.js build output
+# build output
 .next
-out
+dist
