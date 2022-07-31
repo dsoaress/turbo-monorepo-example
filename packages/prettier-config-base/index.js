@@ -1,3 +1,1 @@
-const config = require('./.prettierrc.json')
-
-module.exports = config
+module.exports = require('./.prettierrc.json')
